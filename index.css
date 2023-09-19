@@ -85,6 +85,7 @@ body {
 }
 
 .profile-bio {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     width: 709px; 
@@ -170,14 +171,16 @@ body {
   /* hero section for desktop ends here */
 
   .tech-stack {
-    margin-left: 130px;
+    margin: 0 auto;
+    padding: 20px;
     margin-top: 50px;
     display: grid;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     grid-template-columns: repeat(3, 345px);
     grid-template-rows: repeat(2, 98px);
     row-gap: 58px;
+    column-gap: 35px;
     margin-bottom: 120px;
 }
 
@@ -220,6 +223,7 @@ body {
 }
 
 .projects {
+    padding: 20px;
     width: 90vw;
     margin: 0 120px;
     display: flex;
@@ -260,6 +264,7 @@ a {
 
 
 .projects-display {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 540px) ;
     grid-template-rows: repeat(3, 487px);
@@ -274,7 +279,8 @@ a {
 }
 
 .projects-display .project img {
-    width: 545.809px;
+
+    width: 544px;
     height: 400px;
     transition: opacity 0.3s ease-in-out;
 }
@@ -593,6 +599,8 @@ a {
         row-gap: 52px;
         column-gap: 7px;
         margin-top: 104px;
+        align-items: center;
+        justify-content: center;
     }
 
     .custom-line-1 {
@@ -805,7 +813,6 @@ a {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-left: -30px;
     }
 
     .tech-stack h3 {
@@ -815,6 +822,7 @@ a {
 
     .tech-stack p {
         font-size: 16px;
+        margin-bottom: 0px;
     }
 
     .custom-line-1 {
