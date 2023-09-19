@@ -134,12 +134,12 @@ body {
 
 .custom-line {
     border-bottom: 0.01px solid white;
-    width: 90vw; 
+    width: 98vw; 
     height: 0.1px; 
     background-color: #FFF;
     margin: 0 auto; 
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #rings-svg {
@@ -171,13 +171,14 @@ body {
 
   .tech-stack {
     margin-left: 130px;
+    margin-top: 50px;
     display: grid;
     justify-content: space-around;
     align-items: center;
     grid-template-columns: repeat(3, 345px);
     grid-template-rows: repeat(2, 98px);
     row-gap: 58px;
-    margin-bottom: 140px;
+    margin-bottom: 120px;
 }
 
 .tech-stack h3 {
@@ -186,6 +187,35 @@ body {
     line-height: 56px;
     letter-spacing: -1.5px;
     text-align: left;
+
+}
+
+.tech-stack p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.custom-line-1 {
+    display: none;
+    border-bottom: 0.01px solid white;
+    width: 98vw; 
+    height: 0.1px; 
+    background-color: #FFF;
+    margin: 0 auto; 
+    margin-top: 10px;
+    margin-bottom: 60px;
+    
+}
+
+.images {
+    overflow-x: hidden;
+}
+
+#rings-2 {
+    position: absolute;
+    top: 977px;
+    right: -239px;
 
 }
 
@@ -250,7 +280,7 @@ a {
 }
 
 .projects-display .project:hover img {
-    opacity: 0.5;
+    opacity: 0.4;
     cursor: pointer;
 }
 
@@ -460,7 +490,7 @@ a {
     margin: 0 auto; 
     margin-top: 60px;
     margin-bottom: 30px;
-    width: 92%; 
+    width: 96vw; 
     color: #fff;
     top: 0px;
     height: 1px;
@@ -558,12 +588,26 @@ a {
     /* hero section for tablet ends here */
 
     .tech-stack {
-        margin-left: 32px;
         grid-template-columns: repeat(2, 345px);
         grid-template-rows: repeat(3, 98px);
         row-gap: 52px;
         column-gap: 7px;
         margin-top: 104px;
+    }
+
+    .custom-line-1 {
+        display: block;
+        border-bottom: 0.01px solid white;
+        width: 100%; 
+        height: 0.1px; 
+        background-color: #FFF;
+        margin: 0 auto; 
+        margin-bottom: 30px;
+    }
+
+    #rings-2 {
+        top: 1047px;
+        right: -332px;
     }
 
 
@@ -573,6 +617,7 @@ a {
         column-gap: 22px;
         row-gap: 60px;
         align-items: center;
+        justify-content: center;
     }
 
     .projects-display .project img {
@@ -642,12 +687,8 @@ a {
     }
 
     .custom-line-2 {
-        width: 96%;
+        width: 100%;
 
-    }
-
-    #rings-2 {
-        display: none;
     }
 
    
@@ -761,12 +802,30 @@ a {
         grid-template-columns: 345px;
         grid-template-rows: repeat(6, 67px);
         margin-top: 30px;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         margin-left: -30px;
     }
 
     .tech-stack h3 {
+        font-size: 32px;
         text-align: center;
+    }
+
+    .tech-stack p {
+        font-size: 16px;
+    }
+
+    .custom-line-1 {
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    #rings-2 {
+        top: 1287px;
+        right: -344px;
     }
 
     .project-heading {
