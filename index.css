@@ -49,6 +49,10 @@ body {
     display: inline-flex;
 }
 
+.icons path:hover {
+    fill: #4EE1A0;
+}
+
 .info-hero {
     display: flex;
     flex-direction: row-reverse;
@@ -123,6 +127,11 @@ body {
     text-decoration: none;
 }
 
+.contact-me:hover {
+    cursor: pointer;
+    color: #4EE1A0;
+}
+
 .custom-line {
     border-bottom: 0.01px solid white;
     width: 90vw; 
@@ -141,21 +150,21 @@ body {
 
 .profile-pic-container {
     position: relative;
-    display: inline-block; /* Ensure inline-block to wrap content */
+    display: inline-block; 
   }
   
   .profile-pic {
     max-height: 100%;
-    max-width: 100%; /* Ensure the image is responsive */
+    max-width: 100%; 
   }
   
   .profile-pic-container #circle-svg {
     position: absolute;
     top: 430px;
     left: -65px;
-    width: 30%; /* Adjust the size of the circle as needed */
+    width: 30%; 
     height: auto;
-    z-index: 1; /* Ensure the circle is on top of the profile picture */
+    z-index: 1; 
   }
 
   /* hero section for desktop ends here */
@@ -274,7 +283,7 @@ a {
     color: var(--White, #FFF);
     font-size: 16px;
     font-weight: 700;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     letter-spacing: 2.286px;
     top: -200px;
     left: 80px;
@@ -295,7 +304,7 @@ a {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px; /* 133.333% */
+    line-height: 32px; 
 }
 
 .projects-display .project span {
@@ -305,7 +314,7 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0.5px; /* 155.556% */
+    letter-spacing: 0.5px; 
 }
 
 /*project section for desktop ends here */
@@ -375,7 +384,7 @@ a {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     letter-spacing: -0.222px;
     caret-color: white;
 }
@@ -394,7 +403,7 @@ a {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; 
     letter-spacing: -0.222px;
     color: #FFF;
     caret-color: white;
@@ -412,6 +421,10 @@ a {
 
 #usermessage:focus {
     outline: none;
+}
+
+#usermessage:hover {
+    border-bottom: 1px solid #4EE1A0;
 }
 
 #submit-form {
@@ -676,7 +689,7 @@ a {
         margin-bottom: 10px;
         font-size: 16px;
         font-weight: 700;
-        line-height: 16px; /* 133.333% */
+        line-height: 16px; 
         letter-spacing: -0.333px;
     }
 
@@ -863,7 +876,7 @@ a {
         margin-bottom: 10px;
         font-size: 16px;
         font-weight: 700;
-        line-height: 16px; /* 133.333% */
+        line-height: 16px; 
         letter-spacing: -0.333px;
     }
 
