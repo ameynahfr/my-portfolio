@@ -771,6 +771,7 @@ a {
     }
 
     .profile-bio {
+        margin: 0 auto;
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
@@ -807,12 +808,18 @@ a {
     /* hero section for mobile ends here */
 
     .tech-stack {
+        margin: 0 auto;
         grid-template-columns: 345px;
         grid-template-rows: repeat(6, 67px);
+        column-gap: 0px;
+        row-gap: 30px;
+        padding: 0px;
         margin-top: 30px;
+        margin-bottom: 50px;
         align-items: center;
         justify-content: center;
         text-align: center;
+        width: 45vw;
     }
 
     .tech-stack h3 {
@@ -845,6 +852,7 @@ a {
     .projects-display {
         grid-template-columns: 345px;
         grid-template-rows: repeat(6, 396px);
+        width: 30vw;
     
     }
 
