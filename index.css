@@ -670,6 +670,7 @@ a {
     .contact-section {
         background-color: #242424;
         color: #FFF;
+        min-width: 100vw;
     }
 
     .contact {
@@ -895,7 +896,11 @@ a {
 
     /*project section for mobile ends here */
 
-    
+    .contact-section {
+        background-color: #242424;
+        color: #FFF;
+        min-width: 100vw;
+    }
 
     #contact-heading {
         font-size: 40px;
