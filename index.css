@@ -19,6 +19,7 @@ body {
     align-items: center;
     height: 100vh;
     overflow-x: hidden;
+    margin: 0 30px;
     
 }
 
@@ -55,6 +56,7 @@ body {
 }
 
 .info-hero {
+    margin: 0 30px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -396,6 +398,7 @@ a {
     font-size: 18px;
     font-weight: 500;
     line-height: 28px; 
+    color: var(--Grey, #D9D9D9);
 
 }
 
@@ -547,13 +550,17 @@ a {
     }
 
     .hero-section {
-        width: 92vw;
+        width: 85vw;
     }
 
     .hero-section .username h1 {
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 24px;
+        line-height: 24px;
         letter-spacing: -0.444px;
+    }
+
+    .info-hero {
+        margin: 0 10px;
     }
 
     .info-hero #profile-pic-desktop {
@@ -572,10 +579,11 @@ a {
     }
 
     .profile-bio h1 {
-        margin-top: 30px;
-        font-size: 53px;
-        line-height: 72px;
+        margin-top: 0px;
+        font-size: 50px;
+        line-height: 50px;
         letter-spacing: -2.045px;
+        z-index: 1;
         
     }
 
