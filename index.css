@@ -98,7 +98,7 @@ body {
     font-size: 75px;
     font-weight: 700;
     line-height: 88px;
-    letter-spacing: -2.5px;
+    letter-spacing: -2.8px;
 }
 
 .profile-bio #highlighted {
@@ -582,7 +582,7 @@ a {
         margin-top: 0px;
         font-size: 50px;
         line-height: 50px;
-        letter-spacing: -2.045px;
+        letter-spacing: -3.745px;
         z-index: 1;
         
     }
