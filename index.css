@@ -979,4 +979,25 @@ a {
 
 /*          MOBILE    DESIGN    ENDS   HERE        */
 
+@media screen and (min-width: 1920px) {
 
+    .hero-section{
+        
+        margin-top: 20px;
+        width: 59vw;
+    }
+
+    .projects {
+        width: 60vw;
+    }
+    .contact {
+        margin: 0 380px;
+    }
+
+
+    .footer-section {
+        width: 64vw;
+    }
+
+
+}
